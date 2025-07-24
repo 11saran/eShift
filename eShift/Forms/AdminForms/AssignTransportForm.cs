@@ -80,12 +80,12 @@ namespace eShift.Forms.AdminForms
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.Color.Black;
-            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(17)))), ((int)(((byte)(27)))));
+            this.btnClose.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnClose.Location = new System.Drawing.Point(510, 428);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(115, 53);
+            this.btnClose.Size = new System.Drawing.Size(179, 53);
             this.btnClose.TabIndex = 65;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = false;
@@ -93,12 +93,12 @@ namespace eShift.Forms.AdminForms
             // 
             // btnAssign
             // 
-            this.btnAssign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
-            this.btnAssign.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAssign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(97)))), ((int)(((byte)(87)))));
+            this.btnAssign.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAssign.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAssign.Location = new System.Drawing.Point(334, 428);
+            this.btnAssign.Location = new System.Drawing.Point(269, 428);
             this.btnAssign.Name = "btnAssign";
-            this.btnAssign.Size = new System.Drawing.Size(129, 53);
+            this.btnAssign.Size = new System.Drawing.Size(179, 53);
             this.btnAssign.TabIndex = 64;
             this.btnAssign.Text = "Assign";
             this.btnAssign.UseVisualStyleBackColor = false;
@@ -110,28 +110,28 @@ namespace eShift.Forms.AdminForms
             this.lblJobNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJobNumber.Location = new System.Drawing.Point(506, 84);
             this.lblJobNumber.Name = "lblJobNumber";
-            this.lblJobNumber.Size = new System.Drawing.Size(0, 24);
+            this.lblJobNumber.Size = new System.Drawing.Size(0, 29);
             this.lblJobNumber.TabIndex = 62;
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTitle.Location = new System.Drawing.Point(75, 76);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(349, 37);
+            this.lblTitle.Size = new System.Drawing.Size(446, 46);
             this.lblTitle.TabIndex = 60;
             this.lblTitle.Text = "Assign Transport Unit";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(114, 160);
+            this.label1.Location = new System.Drawing.Point(114, 150);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 29);
+            this.label1.Size = new System.Drawing.Size(228, 34);
             this.label1.TabIndex = 68;
             this.label1.Text = "Transport Unit";
             // 
@@ -140,9 +140,9 @@ namespace eShift.Forms.AdminForms
             this.cmbTransportUnit.FormattingEnabled = true;
             this.cmbTransportUnit.Items.AddRange(new object[] {
             "[\"Customer\", \"Admin\"]"});
-            this.cmbTransportUnit.Location = new System.Drawing.Point(353, 172);
+            this.cmbTransportUnit.Location = new System.Drawing.Point(348, 160);
             this.cmbTransportUnit.Name = "cmbTransportUnit";
-            this.cmbTransportUnit.Size = new System.Drawing.Size(238, 21);
+            this.cmbTransportUnit.Size = new System.Drawing.Size(238, 24);
             this.cmbTransportUnit.TabIndex = 67;
             // 
             // dgvLoads
@@ -161,7 +161,7 @@ namespace eShift.Forms.AdminForms
             // 
             // AssignTransportForm
             // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(184)))), ((int)(((byte)(172)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.dgvLoads);
             this.Controls.Add(this.label1);

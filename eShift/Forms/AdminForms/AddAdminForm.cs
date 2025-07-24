@@ -98,8 +98,8 @@ namespace eShift.Forms.AdminForms
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.Black;
-            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(17)))), ((int)(((byte)(27)))));
+            this.btnCancel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnCancel.Location = new System.Drawing.Point(501, 360);
             this.btnCancel.Name = "btnCancel";
@@ -111,8 +111,8 @@ namespace eShift.Forms.AdminForms
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
-            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(97)))), ((int)(((byte)(87)))));
+            this.btnSave.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSave.Location = new System.Drawing.Point(328, 360);
             this.btnSave.Name = "btnSave";
@@ -125,72 +125,72 @@ namespace eShift.Forms.AdminForms
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label8.Location = new System.Drawing.Point(260, 235);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 24);
+            this.label8.Size = new System.Drawing.Size(127, 27);
             this.label8.TabIndex = 46;
             this.label8.Text = "Username";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(258, 187);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 24);
+            this.label2.Size = new System.Drawing.Size(77, 27);
             this.label2.TabIndex = 42;
             this.label2.Text = "Name";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(401, 242);
+            this.txtUsername.Location = new System.Drawing.Point(401, 240);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(280, 20);
+            this.txtUsername.Size = new System.Drawing.Size(280, 22);
             this.txtUsername.TabIndex = 41;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(401, 194);
+            this.txtName.Location = new System.Drawing.Point(401, 192);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(280, 20);
+            this.txtName.Size = new System.Drawing.Size(280, 22);
             this.txtName.TabIndex = 37;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(345, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 37);
+            this.label1.Size = new System.Drawing.Size(330, 46);
             this.label1.TabIndex = 36;
             this.label1.Text = "Add New Admin";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Location = new System.Drawing.Point(262, 276);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 24);
+            this.label6.Size = new System.Drawing.Size(122, 27);
             this.label6.TabIndex = 50;
             this.label6.Text = "Password";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(401, 283);
+            this.txtPassword.Location = new System.Drawing.Point(401, 281);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(280, 20);
+            this.txtPassword.Size = new System.Drawing.Size(280, 22);
             this.txtPassword.TabIndex = 49;
             // 
             // AddAdminForm
             // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(184)))), ((int)(((byte)(172)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPassword);

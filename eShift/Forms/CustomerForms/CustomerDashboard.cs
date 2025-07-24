@@ -82,10 +82,10 @@ namespace eShift.Forms.CustomerForms
             // 
             // btnNewJob
             // 
-            this.btnNewJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
-            this.btnNewJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(97)))), ((int)(((byte)(87)))));
+            this.btnNewJob.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNewJob.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnNewJob.Location = new System.Drawing.Point(387, 90);
+            this.btnNewJob.Location = new System.Drawing.Point(306, 101);
             this.btnNewJob.Name = "btnNewJob";
             this.btnNewJob.Size = new System.Drawing.Size(127, 46);
             this.btnNewJob.TabIndex = 32;
@@ -95,10 +95,10 @@ namespace eShift.Forms.CustomerForms
             // 
             // btnViewLoads
             // 
-            this.btnViewLoads.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
-            this.btnViewLoads.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewLoads.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(97)))), ((int)(((byte)(87)))));
+            this.btnViewLoads.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewLoads.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnViewLoads.Location = new System.Drawing.Point(520, 90);
+            this.btnViewLoads.Location = new System.Drawing.Point(450, 101);
             this.btnViewLoads.Name = "btnViewLoads";
             this.btnViewLoads.Size = new System.Drawing.Size(174, 46);
             this.btnViewLoads.TabIndex = 31;
@@ -109,20 +109,20 @@ namespace eShift.Forms.CustomerForms
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTitle.Location = new System.Drawing.Point(54, 29);
+            this.lblTitle.Location = new System.Drawing.Point(85, 32);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(341, 37);
+            this.lblTitle.Size = new System.Drawing.Size(437, 46);
             this.lblTitle.TabIndex = 26;
             this.lblTitle.Text = "Customer Dashboard";
             // 
             // btnUpdateProfile
             // 
-            this.btnUpdateProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
-            this.btnUpdateProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(97)))), ((int)(((byte)(87)))));
+            this.btnUpdateProfile.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateProfile.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnUpdateProfile.Location = new System.Drawing.Point(700, 90);
+            this.btnUpdateProfile.Location = new System.Drawing.Point(640, 101);
             this.btnUpdateProfile.Name = "btnUpdateProfile";
             this.btnUpdateProfile.Size = new System.Drawing.Size(203, 46);
             this.btnUpdateProfile.TabIndex = 34;
@@ -133,9 +133,9 @@ namespace eShift.Forms.CustomerForms
             // btnLogout
             // 
             this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(17)))), ((int)(((byte)(27)))));
-            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnLogout.Location = new System.Drawing.Point(768, 32);
+            this.btnLogout.Location = new System.Drawing.Point(768, 38);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(135, 46);
             this.btnLogout.TabIndex = 33;
@@ -163,12 +163,12 @@ namespace eShift.Forms.CustomerForms
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.Location = new System.Drawing.Point(72, 101);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 24);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 29);
             this.lblWelcome.TabIndex = 36;
             // 
             // CustomerDashboard
             // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(184)))), ((int)(((byte)(172)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.dgvJobs);

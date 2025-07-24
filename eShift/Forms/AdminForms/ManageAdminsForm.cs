@@ -80,7 +80,7 @@ namespace eShift.Forms.AdminForms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvAdmins.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dgvAdmins.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAdmins.Location = new System.Drawing.Point(100, 184);
+            this.dgvAdmins.Location = new System.Drawing.Point(100, 201);
             this.dgvAdmins.Name = "dgvAdmins";
             this.dgvAdmins.ReadOnly = true;
             this.dgvAdmins.RowHeadersWidth = 51;
@@ -90,9 +90,9 @@ namespace eShift.Forms.AdminForms
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.Black;
-            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnClose.Location = new System.Drawing.Point(534, 116);
+            this.btnClose.Location = new System.Drawing.Point(683, 45);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(135, 46);
             this.btnClose.TabIndex = 47;
@@ -102,10 +102,10 @@ namespace eShift.Forms.AdminForms
             // 
             // btnAddAdmin
             // 
-            this.btnAddAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
-            this.btnAddAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(97)))), ((int)(((byte)(87)))));
+            this.btnAddAdmin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAddAdmin.Location = new System.Drawing.Point(100, 116);
+            this.btnAddAdmin.Location = new System.Drawing.Point(416, 131);
             this.btnAddAdmin.Name = "btnAddAdmin";
             this.btnAddAdmin.Size = new System.Drawing.Size(170, 46);
             this.btnAddAdmin.TabIndex = 46;
@@ -116,9 +116,9 @@ namespace eShift.Forms.AdminForms
             // btnDeleteAdmin
             // 
             this.btnDeleteAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(17)))), ((int)(((byte)(27)))));
-            this.btnDeleteAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteAdmin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnDeleteAdmin.Location = new System.Drawing.Point(300, 116);
+            this.btnDeleteAdmin.Location = new System.Drawing.Point(612, 131);
             this.btnDeleteAdmin.Name = "btnDeleteAdmin";
             this.btnDeleteAdmin.Size = new System.Drawing.Size(206, 46);
             this.btnDeleteAdmin.TabIndex = 45;
@@ -129,17 +129,18 @@ namespace eShift.Forms.AdminForms
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTitle.Location = new System.Drawing.Point(92, 51);
+            this.lblTitle.Location = new System.Drawing.Point(92, 45);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(320, 46);
+            this.lblTitle.Size = new System.Drawing.Size(330, 46);
             this.lblTitle.TabIndex = 44;
             this.lblTitle.Text = "Manage Admins";
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // ManageAdminsForm
             // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(184)))), ((int)(((byte)(172)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.dgvAdmins);
             this.Controls.Add(this.btnClose);
@@ -153,6 +154,11 @@ namespace eShift.Forms.AdminForms
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdmins)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -70,9 +70,9 @@ namespace eShift.Forms.AdminForms
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Black;
-            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCancel.Location = new System.Drawing.Point(562, 375);
+            this.btnCancel.Location = new System.Drawing.Point(516, 336);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(135, 50);
             this.btnCancel.TabIndex = 58;
@@ -82,10 +82,10 @@ namespace eShift.Forms.AdminForms
             // 
             // btnAccept
             // 
-            this.btnAccept.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(84)))), ((int)(((byte)(2)))));
-            this.btnAccept.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccept.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(97)))), ((int)(((byte)(87)))));
+            this.btnAccept.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAccept.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAccept.Location = new System.Drawing.Point(242, 375);
+            this.btnAccept.Location = new System.Drawing.Point(196, 336);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(135, 50);
             this.btnAccept.TabIndex = 49;
@@ -96,9 +96,9 @@ namespace eShift.Forms.AdminForms
             // btnDecline
             // 
             this.btnDecline.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(17)))), ((int)(((byte)(27)))));
-            this.btnDecline.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDecline.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDecline.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnDecline.Location = new System.Drawing.Point(400, 375);
+            this.btnDecline.Location = new System.Drawing.Point(357, 336);
             this.btnDecline.Name = "btnDecline";
             this.btnDecline.Size = new System.Drawing.Size(135, 50);
             this.btnDecline.TabIndex = 48;
@@ -112,35 +112,35 @@ namespace eShift.Forms.AdminForms
             this.lblJobNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJobNumber.Location = new System.Drawing.Point(117, 131);
             this.lblJobNumber.Name = "lblJobNumber";
-            this.lblJobNumber.Size = new System.Drawing.Size(0, 24);
+            this.lblJobNumber.Size = new System.Drawing.Size(0, 29);
             this.lblJobNumber.TabIndex = 47;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(236, 198);
+            this.label6.Location = new System.Drawing.Point(190, 150);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(116, 29);
+            this.label6.Size = new System.Drawing.Size(146, 34);
             this.label6.TabIndex = 46;
             this.label6.Text = "Remarks";
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTitle.Location = new System.Drawing.Point(102, 65);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(204, 37);
+            this.lblTitle.Size = new System.Drawing.Size(263, 46);
             this.lblTitle.TabIndex = 43;
             this.lblTitle.Text = "Process Job";
             // 
             // txtRemarks
             // 
             this.txtRemarks.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.txtRemarks.Location = new System.Drawing.Point(242, 237);
+            this.txtRemarks.Location = new System.Drawing.Point(196, 203);
             this.txtRemarks.Name = "txtRemarks";
             this.txtRemarks.Size = new System.Drawing.Size(455, 96);
             this.txtRemarks.TabIndex = 59;
@@ -148,7 +148,7 @@ namespace eShift.Forms.AdminForms
             // 
             // ProcessJobForm
             // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(184)))), ((int)(((byte)(172)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.txtRemarks);
             this.Controls.Add(this.btnCancel);
